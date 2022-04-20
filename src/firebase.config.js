@@ -10,8 +10,8 @@ const firebaseConfig = {
 	projectId: "housemarket-39ade",
 	storageBucket: "housemarket-39ade.appspot.com",
 	messagingSenderId: "389848379356",
-	appId: "1:389848379356:web:e4eb4f2b981afbbc52e919"
+	appId: "1:389848379356:web:e4eb4f2b981afbbc52e919",
 };
 
 const app = initializeApp(firebaseConfig);
-const db = getFirestore()
+export const db = getFirestore();
